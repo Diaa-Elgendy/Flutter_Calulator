@@ -18,7 +18,6 @@ class _HistoryScreenState extends State<HistoryScreen> {
         backgroundColor: isLight ? greenLight : greenDark,
       ),
       backgroundColor: isLight ? backgroundLight : backgroundDark,
-
       body: ListView.separated(
         itemBuilder: (context, index) => Container(
           padding: EdgeInsets.all(15),
