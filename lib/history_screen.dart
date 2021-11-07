@@ -17,10 +17,11 @@ class _HistoryScreenState extends State<HistoryScreen> {
         title: Text("History"),
         backgroundColor: isLight ? greenLight : greenDark,
       ),
+      backgroundColor: isLight ? backgroundLight : backgroundDark,
+
       body: ListView.separated(
         itemBuilder: (context, index) => Container(
           padding: EdgeInsets.all(15),
-          color: isLight ? backgroundLight : backgroundDark,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [

@@ -435,7 +435,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future insertDataBase(String equation, String result) async {
-    return await database.transaction((txn) {
+    return await database.transaction((txn) async{
       txn
           .rawInsert(
               'INSERT INTO calcHistory (equation, result) VALUES ("$equation","$result")')
@@ -444,7 +444,6 @@ class _MyHomePageState extends State<MyHomePage> {
       }).catchError((error) {
         print("Error while inserting Data${error.toString()}");
       });
-      return null;
     });
   }
 
