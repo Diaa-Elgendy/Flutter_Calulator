@@ -2,6 +2,7 @@
 
 Simple calculator built with Cubit for state management & Sqflite for saving calculations history.
 
-![](https://user-images.githubusercontent.com/88054373/140642596-93d3fe84-7824-43ae-8f24-cb7b7e224cc7.jpg)
-![](https://user-images.githubusercontent.com/88054373/140642598-75dd63b1-0995-4c1c-8c20-a97bb68c4b49.jpg)
-![](https://user-images.githubusercontent.com/88054373/140642599-e4e4f743-8d58-4b8c-b200-736928b8a3ac.jpg)
+
+![](https://user-images.githubusercontent.com/88054373/140643373-ec9c2726-315f-4776-b9e8-6697383304e2.jpg)
+![](https://user-images.githubusercontent.com/88054373/140643374-0638c28d-e61e-467c-b526-c546d1405344.jpg)
+![](https://user-images.githubusercontent.com/88054373/140643376-cafa9f27-3b42-4016-897c-d5ebd2103d7e.jpg)
